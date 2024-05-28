@@ -1,94 +1,134 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Resume Code</title><h3><p style= "color:blue;">CV in HTML </p></h3>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanvir Ahmed Roni - Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .header, .section {
+            padding: 20px;
+        }
+        .header {
+            background: #4CAF50;
+            color: #fff;
+            text-align: center;
+        }
+        .header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .section-title {
+            background: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            margin: 0 -20px 20px;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .section ul li:last-child {
+            border-bottom: none;
+        }
+        .footer {
+            background: #4CAF50;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
 <body>
 
-<table>
-        <tr>
-                
-                <td><h1>Curriculum Vitae</h1><br>
-                </td>
-        </tr>
-        
-        <tr>
-                
-            <td><img src="Roni.jpg"alt= "Roni" width="300" height="300">
-                <b><h2>Tanvir Ahmed Roni<br></b>
-                <b>Contact Adress:</b>
-                    <br>13 Shah Ali Bagh,Flat (C-4),
-                    <br>Mirpur-1, Dhaka-1216
-                    <br>Mobile: 01979515382
-                    </h2></td>
-        </tr>
-        
-        <tr>
-                
-            <td><b><h1>Career Objective:</h1</b><br>
-                <h2>To thrive in a dynamic environment where I can contribute my expertise and grow through shared      knowledge and experiences
-                </h2></td>
-        </tr>
-	
+<div class="container">
+    <div class="header">
+        <img src="Roni.jpg" alt="Tanvir Ahmed Roni">
+        <h1>Tanvir Ahmed Roni</h1>
+        <p>13 Shah Ali Bagh, Flat (C-4), Mirpur-1, Dhaka-1216</p>
+        <p>Mobile: 01979515382</p>
+        <p>Email: roni15-4911@diu.edu.bd</p>
+    </div>
 
-      
+    <div class="section">
+        <h2 class="section-title">Career Objective</h2>
+        <p>To thrive in a dynamic environment where I can contribute my expertise and grow through shared knowledge and experiences.</p>
+    </div>
 
-        <tr>
-                
-            <td><b><h2>Education:</h2</b><br>
-                <div><ul>Graduation: Pursuing BSc. 3rd Year in CSE at Daffodil International University (DIU).
-                <br>HSC: GPA 5.00, Dhaka College, 2020.
-                <br>SSC: GPA 5.00, Dhaka Shiksha Board Laboratory School and College, 2018
-                </h2></ul></div></td>
-        </tr>
+    <div class="section">
+        <h2 class="section-title">Education</h2>
+        <ul>
+            <li>BSc. 3rd Year in CSE at Daffodil International University (DIU).</li>
+            <li>HSC: GPA 5.00, Dhaka College, 2020.</li>
+            <li>SSC: GPA 5.00, Dhaka Shiksha Board Laboratory School and College, 2018.</li>
+        </ul>
+    </div>
 
-        <tr>
-                
-            <td><b><h2>Skills:</h2</b><br>
-                <div><ul>C, Java, Python programming language.
-                <br>Graphics Designing
-            </ul></div></h2></td>
-        </tr>
+    <div class="section">
+        <h2 class="section-title">Skills</h2>
+        <ul>
+            <li>C, Java, Python programming languages.</li>
+            <li>Graphics Designing.</li>
+        </ul>
+    </div>
 
-        <tr>
-                
-            <td><b><h2>Language Skill:</h2</b><br>
-                <div><ul>Bengali
-                <br>English
-                <br>Hindi
-                <br>Urdu
-            </ul></div></h2></td>
-        </tr>
+    <div class="section">
+        <h2 class="section-title">Language Skills</h2>
+        <ul>
+            <li>Bengali</li>
+            <li>English</li>
+            <li>Hindi</li>
+            <li>Urdu</li>
+        </ul>
+    </div>
 
-        <tr>
-                
-            <td><b><h2>Personal Details:</h2</b><br>
-                <div><ul>Name: Tanvir Ahmed Roni
-                <br>Father’s Name: Md. Abul Kalam Azad
-                <br>Mother’s Name: Mrs. Mollika Azad
-                <br>E-mail: roni15-4911@diu.edu.bd
-                <br>Date of Birth: 28 September, 2001
-                <br>Nationality: Bangladeshi
-                <br>Religion: Islam
-                <br>Gender: Male
+    <div class="section">
+        <h2 class="section-title">Personal Details</h2>
+        <ul>
+            <li>Name: Tanvir Ahmed Roni</li>
+            <li>Father’s Name: Md. Abul Kalam Azad</li>
+            <li>Mother’s Name: Mrs. Mollika Azad</li>
+            <li>Date of Birth: 28 September, 2001</li>
+            <li>Nationality: Bangladeshi</li>
+            <li>Religion: Islam</li>
+            <li>Gender: Male</li>
+        </ul>
+    </div>
 
-            </ul></div></h2></td>
-        </tr>
+    <div class="section">
+        <h2 class="section-title">Experience</h2>
+        <ul>
+            <li>Programming Contest Take-Off Finalist in 2023 at DIU.</li>
+            <li>Participated in ICPC 2023 DIU.</li>
+            <li>Participated in Unlock the Algorithm (UAT), 2023 DIU.</li>
+            <li>Contributor at ShutterStock, AdobeStock and Freepik.</li>
+            <li>Working on a project named MEDCARE.</li>
+        </ul>
+    </div>
 
-        <tr>
-                
-            <td><b><h2>Experience:</h2</b><br>
-            <div><ul>Programming Contest Take-Off Finalist in 2023 at DIU.
-                <br>Participated in ICPC 2023 DIU.
-                <br>Participated in Unlock the Algorithm (UAT), 2023 DIU.
-                <br>Contributor at ShutterStock, AdobeStock and Freepik
-                <br>Working on a project named MEDCARE
-            </ul></div></h2></td>
-        </tr>
+    <div class="footer">
+        <p>&copy; 2024 Tanvir Ahmed Roni. All rights reserved.</p>
+    </div>
+</div>
 
-
-
-</table>
 </body>
-</head>
 </html>
